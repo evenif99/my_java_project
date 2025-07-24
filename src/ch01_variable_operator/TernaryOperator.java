@@ -19,13 +19,16 @@ public class TernaryOperator {
         String str = y%x == 0 ? "yes" : "no";
         System.out.println("약수 : " + str);
 
+        String message ;
         int su = 7 ;
         // 숫자 7은(는) 홀수입니다.
-        String name = su%2 == 1 ? "홀수" : "짝수";
-        System.out.println("숫자 " + su + "는 " + name + " 입니다");
+        String name = su%2 == 0 ? "짝수" : "홀수";
+        message = "숫자 " + su + "은(는) " + name + " 입니다.";
+        System.out.println(message);
         int score = 85 ; // 60점 이상이면 합격
         String scr = score >= 60 ? "합격" : "불합격";
-        System.out.println(score + "점이므로 " + scr + " 입니다.");
+        message = score + "점이므로 " + scr + " 입니다";
+        System.out.println(message);
         // 85점이므로 합격입니다.
     }
 }
