@@ -1,0 +1,38 @@
+package ch01_variable_operator;
+
+public class PlusMinus01 {
+    public static void main(String[] args) {
+        int a = 10, b = 20, c ; //해당 값은 지속적으로 누적됨
+
+        c= ++a + b++ ;
+
+        System.out.println("a : " + a);
+        System.out.println("b : " + b);
+        System.out.println("c : " + c);
+
+        c= a++ + --b ;
+        //
+        System.out.println("a : " + a);
+        System.out.println("b : " + b);
+        System.out.println("c : " + c);
+
+        a = 15;
+        b = 12;
+
+        c = --a  + --b;
+        // 4   1  3   2
+        System.out.println("a : " + a); // 14
+        System.out.println("b : " + b); // 11
+        System.out.println("c : " + c); // 25
+
+        a = 10;   // ++, --에 대한 누적을 항상 생각할 것
+        b = 20;
+        ++a; //11
+        b--; //19
+        c = ++a + b--;
+
+        System.out.println("a : " + a); // 12
+        System.out.println("b : " + b); // 18
+        System.out.println("c : " + c); // 31
+    }
+}
