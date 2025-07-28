@@ -43,7 +43,7 @@ public class Switch07 {
 
         System.out.println("라인 수를 줄이는 방식");
         switch (su){
-            case 1, 3, 5:
+            case 1, 3, 5: //버전에 따라 수행이 불가할 수 있음.
                 System.out.println("홀수");
                 break;
             case 2: case 4: case 6:

@@ -25,7 +25,7 @@ public class MultiIf02 {
             discount = 0;
             comment ="성인(정가)";
         }
-        message1 = age+"살 :"  + comment ;
+        message1 = age + "살 :" + comment;
         message2 = "가격은 " + ticket*(1.0-discount) + "원입니다.";
         System.out.println(message1);
         System.out.println(message2);
