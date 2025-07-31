@@ -1,14 +1,17 @@
 package ch04_class;
 
 public class Smartphone01 {
+//클래스 내의 모든 변수를 private 접근 지정자를 사용하도록 합니다
+//getter 와 setter 메소드를 구현하여 읽기 쓰기 작업을 수행하세요
 
-    String series;
-    String processor;
-    String memory;
-    String display;
-    String camera;
-    String battery;
-    String color;
+
+    private String series;
+    private String processor;
+    private String memory;
+    private String display;
+    private String camera;
+    private String battery;
+    private String color;
 
     String showprocessorinfo(int gen){
         String proc = "";
@@ -86,6 +89,58 @@ public class Smartphone01 {
         System.out.println("배터리 : " + battery);
         System.out.println("색상 : " + color);
     }
+    public void setSeries(String series){
+        this.series = series;
+    }
+    public String getSeries(){
+        return series;
+    }
 
+    public String getProcessor() {
+        return processor;
+    }
 
+    public void setProcessor(String processor) {
+        this.processor = processor;
+    }
+
+    public String getMemory() {
+        return memory;
+    }
+
+    public void setMemory(String memory) {
+        this.memory = memory;
+    }
+
+    public String getDisplay() {
+        return display;
+    }
+
+    public void setDisplay(String display) {
+        this.display = display;
+    }
+
+    public String getCamera() {
+        return camera;
+    }
+
+    public void setCamera(String camera) {
+        this.camera = camera;
+    }
+
+    public String getBattery() {
+        return battery;
+    }
+
+    public void setBattery(String battery) {
+        this.battery = battery;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
 }
