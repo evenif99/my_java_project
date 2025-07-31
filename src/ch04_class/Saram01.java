@@ -13,7 +13,7 @@ public class Saram01 {
     double height;
     double weight;
 
-    // 반환 타입  메소드이름(매개 변수 리스트){ ... } 매개변수는 지역변수의 부분집합
+    // 반환 타입  메소드이름(매개변수 리스트){ ... } 매개변수는 지역변수의 부분집합
     String showGenderInfo(int juminno){
         String gender = "" ;
 
