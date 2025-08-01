@@ -6,6 +6,7 @@ public class WhileTest2 {
     public static void main(String[] args) {
         //스캐너 장치 준비 , Java.util 안에 존재, 외부에서 수입한다.
         Scanner scan = new Scanner(System.in); // class에서 디테일하게 배움
+        //스캐너 객체 생성;
 
         int total = 0; // 총점
         int count = 0; // 시행 횟수

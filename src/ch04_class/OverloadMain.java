@@ -7,7 +7,7 @@ public class OverloadMain {
 
         OverAdd obj = new OverAdd();
 
-        obj.Add((double) a, b);
+        obj.Add(a, b);
         obj.Add(x, y);
 
         int result = obj.Add(a, b, c);

@@ -15,4 +15,7 @@ public class OverAdd {
     public void Add(double x, double y) {
         System.out.println("실수 덧셈 : " + (x + y));
     }
+    public void Add(int a, double x){ // a를 실수(double)로 암시적 형변환
+        System.out.println("혼합 덧셈 : " + (a + x));
+    }
 }

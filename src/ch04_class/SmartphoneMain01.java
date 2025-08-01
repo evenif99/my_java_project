@@ -67,7 +67,7 @@ public class SmartphoneMain01 {
         System.out.println();
 
         Galaxy_S24_Ultra.setSeries("갤럭시 S24 Ultra");
-        Galaxy_S24_Ultra.setProcessor("퀄컴 스냅드래곤 8 Elite for Galaxy Mobile Platform");
+        Galaxy_S24_Ultra.setProcessor("퀄컴 스냅드래곤 8 Gen 3 for Galaxy Mobile Platform");
         Galaxy_S24_Ultra.setDisplay("6.8인치 (172.5 mm)[6] 19.5:9 비율 3120 × 1440 Dynamic AMOLED 2X Infinity-O Display");
         Galaxy_S24_Ultra.setMemory("12 GB LPDDR5X SDRAM 9,600 MT/s + 256 / 512 GB UFS 4.0 내장 메모리");
         Galaxy_S24_Ultra.setBattery("내장형 Li-Ion 5,000 mAh");
