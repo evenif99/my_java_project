@@ -2,7 +2,7 @@ package ch04_class;
 
 public class SaramMain04 {
     //메소드의 형태
-    //[접근
+    //접근
     public static void main(String[] args) {
         Saram04 soo = new Saram04(); // 김철수; 객체의 생성; 해당 구문 또한 메소드
         soo.display();

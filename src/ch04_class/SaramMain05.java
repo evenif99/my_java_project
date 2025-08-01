@@ -13,7 +13,7 @@ public class SaramMain05 {
         for (int i = 0; i < saram.length; i++) {
             saram[i].display();
         }
-        // 배열 안쪽의 초기화 기법
+        // 배열(array) 안쪽의 초기화 기법
         Saram05[] mylist = {
                 new Saram05("박영희", 150.5, 55.0, "수영", "B"),
                 new Saram05("최진철", 180.2, 66.0, "A")

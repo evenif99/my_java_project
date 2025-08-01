@@ -7,13 +7,13 @@ public class Saram01 {
     static String nationality ;
     // 멤버 변수들은 기본 값이 존재합니다.
 
-    String name ;
+    String name;
     String hobby;
     String blood;
     double height;
     double weight;
 
-    // 반환 타입  메소드이름(매개변수 리스트){ ... } 매개변수는 지역변수의 부분합
+    // 반환타입 메소드이름(매개변수 타입과 이름){ ... } 매개변수는 지역변수의 부분합
     String showGenderInfo(int juminno){
         String gender = "" ;
 
@@ -46,7 +46,7 @@ public class Saram01 {
         return message ;
     }
     // 반환 타입  메소드이름(매개 변수 리스트){ ... }
-    void display() {          // void는 반환하지 않을 경우 사용, return 문장 사용 않함
+    void display() {               // void는 반환하지 않을 경우 사용, return 사용안함
         System.out.println(name + "님의 신상정보");
         System.out.println("국적 : " + nationality); // static 변수는 기울어져있음
         System.out.println("이름 : " + name);
