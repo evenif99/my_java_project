@@ -8,6 +8,12 @@ public class Espresso04 extends Beverage04{
         System.out.println(message);
     }
 
+    @Override
+    public String toString() {
+        String message = ", 샷 추가 : " + this.shotCount + "번";
+        return super.toString() + message;
+    }
+
     public Espresso04(String name, double price, int shotCount){
         super(name, price);
         this.shotCount = shotCount;

@@ -8,6 +8,13 @@ public class Americano04 extends Beverage04{
         System.out.println(message);
     }
 
+    @Override
+    public String toString() {
+        String message = ", 물의 양 : " + this.waterAmount + "ml";
+        return super.toString() + message;
+
+    }
+
     public Americano04(String name, double price, double waterAmount) {
         super(name, price);
         this.waterAmount = waterAmount;
